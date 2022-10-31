@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+    --bg-black-900: #f2f2fc;
+    --bg-black-100: #fdf9ff;
+    --bg-black-50: #e8dfec;
+    --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    /* font-family: "Poppins" sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    color: aliceblue;
+    background-color: black;
+}
+
+.parent-home {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    /* border: 2px solid red; */
+    margin-bottom: 60px;
+}
+
+.basic-header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(90, 87, 87);
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: .8;
+}
+
+.image {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.ul1 {
+    list-style: none;
+    float: right;
+    margin-right: 9%;
+    /* border: 2px solid red; */
+}
+
+.ul1 li {
+    display: inline;
+    color: aliceblue;
+    line-height: 60px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.ul1 a {
+
+    transition: all 0.4s ease;
+    color: aliceblue;
+
+}
+
+.ul1 a:hover {
+
+    color: #ec1839;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.home-parent {
+    width: 100%;
+    height: 80vh;
+    color: aliceblue;
+    border: 2px solid transparent;
+}
+
+.text-content {
+    width: 680px;
+    border: 2px solid transparent;
+    margin-top: 20%;
+    overflow: auto;
+}
+
+.text-content {
+    border: 2px solid transparent;
+}
+
+.left-info h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+
+}
+
+.left-info p {
+    line-height: 1.5rem;
+    font-size: 20px;
+}
+
+.parent-home span {
+    color: #ec1839;
+}
+
+.btn-download {
+    display: block;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ec1839;
+    color: aliceblue;
+    font-size: 17px;
+    margin: 25px 0px;
+    border: 2px solid transparent;
+    margin-top: 60px;
+    margin-left: 4px;
+    transition: all 0.4s ease;
+}
+
+.btn-download:hover {
+    background-color: transparent;
+    border: 2px solid #ec1839;
+    color: #ec1839;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.right-photo {
+    float: right;
+    width: 280px;
+    margin-top: -350px;
+    margin-right: 40px;
+}
+
+.parent-home-2 h3 {
+    font-size: 23px;
+}
+
+.parent-home-2 p {
+    font-size: 18px;
+}
+
+.header-bage {
+    text-align: center;
+    font-size: 45px;
+}
+
+.line-1 {
+    margin-top: 40px;
+    width: 80px;
+    height: 5px;
+    background-color: #ec1839;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.line-2 {
+    width: 48px;
+    height: 4px;
+    background-color: #ec1839;
+    margin-bottom: 25px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.about-parent {
+    margin-top: 50px;
+    /* overflow: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-about {
+    float: left;
+    width: 380px;
+    border: 2px solid transparent;
+    /* margin-right: 20px; */
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+
+}
+
+.div-right {
+    padding-top: 40px;
+}
+
+.div-about hr {
+    margin: 10px 0px;
+}
+
+progress {
+    width: 350px;
+    height: 20px;
+    margin-bottom: 32px;
+}
+
+.red {
+    accent-color: #ec1839;
+}
+.btn-hire {
+    margin-top: 15px;
+}
+
+.services-parent {
+    margin-top: 25px;
+    /* overflow: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-services {
+
+    float: left;
+    width: 380px;
+    height: 230px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    text-align: center;
+    background-color: rgb(41, 38, 38);
+    border-radius: 15px;
+}
+
+
+.div-services i {
+    display: block;
+    margin-top: 30px;
+    color: #ec1839;
+    font-size: 35px;
+    transition: all .4s ease;
+}
+
+.div-services i:hover {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+    padding: 5px 15px;
+
+}
+
+.text-services {
+    margin-top: 20px;
+}
+
+a:focus {
+    color: #ec1839;
+}
+
+.iamge-services {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.last-section-contact {
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    /* border: 2px solid red; */
+}
+
+.Contact-parent {
+    margin-top: 25px;
+    /* overflow: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-Contact {
+
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    text-align: center;
+    /* background-color: rgb(27, 26, 26); */
+    border-radius: 15px;
+}
+
+.div-Contact i {
+    display: block;
+    margin-top: 30px;
+    color: #ec1839;
+    font-size: 30px;
+    transition: all .4s ease;
+}
+
+.div-Contact h4 {
+    margin: 20px 0px 10px 0px;
+}
+
+.text-contact-send {
+    text-align: center;
+    font-size: 25px;
+}
+
+.text-contact-send {
+    text-align: center;
+    font-size: 25px;
+    color: #ec1839;
+}
+
+.text-contact-resposive {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.parent-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-form input,
+.subject,
+.message {
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 17px;
+    background-color: rgba(62, 59, 59, 0.667);
+    color: aliceblue;
+    border: none;
+    /* border-color: aliceblue; */
+}
+
+.parent-form input {
+    width: 590px;
+}
+
+.subject {
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.message {
+    margin-top: 15px;
+    width: 100%;
+    resize: none;
+    font-size: 20px;
+
+}
+
+.btn {
+    border: 2px solid transparent;
+}
+
+.btn-send {
+    display: block;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ec1839;
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: 17px;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
